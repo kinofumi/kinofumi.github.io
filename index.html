@@ -15,7 +15,7 @@
 </head>
 
 <body>
-  <header>
+  <header class="text-center">
     <nav>
       <div class="btn-group" role="group" aria-label="...">
         <button type="button" class="btn btn-default active"><a href="#">自己紹介</a></button>
@@ -24,10 +24,10 @@
       </div>
     </nav>
   </header>
-  <div>
-    <div>icon</div>
-    <div>
-      <h1>自己紹介</h1>
+  <div class="container-fluid">
+    <h1 class="text-center">自己紹介</h1>
+    <div class="col-sm-4 text-right">icon</div>
+    <div class="col-sm-8">
       <dl class="dl-horizontal">
         <dt>名前</dt>
         <dd>木下 文史　きのした ふみちか<br> 1970.10.13生まれ
@@ -42,52 +42,53 @@
       </dl>
     </div>
   </div>
-  <div>
+  <div class="text-center container-fluid">
     <h3>きになるヒト・モノ・コト<br>2016.11.21現在</h3>
-    <ul class="list-inline">
-      <li><a href="#" class="btn btn-primary btn-sm">エル・リシッキー</a></li>
-      <li><a href="#" class="btn btn-info btn-xs">水戸</a></li>
-      <li><a href="#" class="btn btn-success btn-lg">Service Design</a></li>
-      <li><a href="#" class="btn btn-success btn-xs">茶道</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">Javascript</a></li>
-      <li><a href="#" class="btn btn-primary">松岡正剛</a></li>
-      <li><a href="#" class="btn btn-success btn-xs">お遍路</a></li>
-      <li><a href="#" class="btn btn-primary btn-lg">柳宗理</a></li>
-      <li><a href="#" class="btn btn-info btn-xs">豆腐</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">Ruby</a></li>
-      <li><a href="#" class="btn btn-primary btn-sm">空海</a></li>
-      <li><a href="#" class="btn btn-success btn-lg">編集</a></li>
-      <li><a href="#" class="btn btn-primary btn-xs">大塚英志</a></li>
-      <li><a href="#" class="btn btn-success btn-lg">禅</a></li>
-      <li><a href="#" class="btn btn-info btn-xs">Jesu, Joy of Man's Desire</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">子育て</a></li>
-      <li><a href="#" class="btn btn-primary btn-xs">ヨゼフ・ミューラー・フロッグマン</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">HTML5</a></li>
-      <li><a href="#" class="btn btn-primary">曽根裕</a></li>
-      <li><a href="#" class="btn btn-success btn-xs">マーケティング</a></li>
-      <li><a href="#" class="btn btn-success">野菜づくり</a></li>
-      <li><a href="#" class="btn btn-info btn-xs">佐世保</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">散歩</a></li>
-      <li><a href="#" class="btn btn-success">風水</a></li>
-      <li><a href="#" class="btn btn-info">ジェノベーゼ</a></li>
-      <li><a href="#" class="btn btn-primary">村上龍</a></li>
-      <li><a href="#" class="btn btn-info btn-xs">raspberry pi</a></li>
-      <li><a href="#" class="btn btn-info">伊勢神宮</a></li>
-      <li><a href="#" class="btn btn-success btn-sm">統計</a></li>
-      <li><a href="#" class="btn btn-primary">伊藤穣一</a></li>
-      <li><a href="#" class="btn btn-primary btn-sm">リチャード・ソールワーマン</a></li>
-      <li><a href="#" class="btn btn-success btn-lg">Python</a></li>
-      <li><a href="#" class="btn btn-primary">奈良美智</a></li>
-      <li><a href="#" class="btn btn-info">出雲大社</a></li>
-      <li><a href="#" class="btn btn-primary btn-xs">ジェームス・タレル</a></li>
-      <li><a href="#" class="btn btn-info btn-lg">麻婆豆腐</a></li>
-      <li><a href="#" class="btn btn-primary">鈴木俊隆</a></li>
-      <li><a href="#" class="btn btn-success">CSS3</a></li>
-      <li><a href="#" class="btn btn-primary btn-xs">ルドルフ・シュタイナー</a></li>
-      
-    </ul>
+    <div class="col-sm-8 col-sm-offset-2">
+      <ul class="list-inline">
+        <li><a href="#" class="btn btn-primary btn-sm">エル・リシッキー</a></li>
+        <li><a href="#" class="btn btn-info btn-xs">水戸</a></li>
+        <li><a href="#" class="btn btn-success btn-lg">Service Design</a></li>
+        <li><a href="#" class="btn btn-success btn-xs">茶道</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">Javascript</a></li>
+        <li><a href="#" class="btn btn-primary">松岡正剛</a></li>
+        <li><a href="#" class="btn btn-success btn-xs">お遍路</a></li>
+        <li><a href="#" class="btn btn-primary btn-lg">柳宗理</a></li>
+        <li><a href="#" class="btn btn-info btn-xs">豆腐</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">Ruby</a></li>
+        <li><a href="#" class="btn btn-primary btn-sm">空海</a></li>
+        <li><a href="#" class="btn btn-success btn-lg">編集</a></li>
+        <li><a href="#" class="btn btn-primary btn-xs">大塚英志</a></li>
+        <li><a href="#" class="btn btn-success btn-lg">禅</a></li>
+        <li><a href="#" class="btn btn-info btn-xs">Jesu, Joy of Man's Desire</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">子育て</a></li>
+        <li><a href="#" class="btn btn-primary btn-xs">ヨゼフ・ミューラー・フロッグマン</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">HTML5</a></li>
+        <li><a href="#" class="btn btn-primary">曽根裕</a></li>
+        <li><a href="#" class="btn btn-success btn-xs">マーケティング</a></li>
+        <li><a href="#" class="btn btn-success">野菜づくり</a></li>
+        <li><a href="#" class="btn btn-info btn-xs">佐世保</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">散歩</a></li>
+        <li><a href="#" class="btn btn-success">風水</a></li>
+        <li><a href="#" class="btn btn-info">ジェノベーゼ</a></li>
+        <li><a href="#" class="btn btn-primary">村上龍</a></li>
+        <li><a href="#" class="btn btn-info btn-xs">raspberry pi</a></li>
+        <li><a href="#" class="btn btn-info">伊勢神宮</a></li>
+        <li><a href="#" class="btn btn-success btn-sm">統計</a></li>
+        <li><a href="#" class="btn btn-primary">伊藤穣一</a></li>
+        <li><a href="#" class="btn btn-primary btn-sm">リチャード・ソールワーマン</a></li>
+        <li><a href="#" class="btn btn-success btn-lg">Python</a></li>
+        <li><a href="#" class="btn btn-primary">奈良美智</a></li>
+        <li><a href="#" class="btn btn-info">出雲大社</a></li>
+        <li><a href="#" class="btn btn-primary btn-xs">ジェームス・タレル</a></li>
+        <li><a href="#" class="btn btn-info btn-lg">麻婆豆腐</a></li>
+        <li><a href="#" class="btn btn-primary">鈴木俊隆</a></li>
+        <li><a href="#" class="btn btn-success">CSS3</a></li>
+        <li><a href="#" class="btn btn-primary btn-xs">ルドルフ・シュタイナー</a></li>
+      </ul>
+    </div>
   </div>
-  <footer>&copy; Kinoshita Fumichika</footer>
+  <footer class="text-center">&copy; Kinoshita Fumichika</footer>
 </body>
 
 </html>
